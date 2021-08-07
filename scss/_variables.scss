@@ -2,21 +2,22 @@
 // variables.scss
 //
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-$primary:   #4252f9;
-$success:   #15c7ae;
-$info:      #10a6ba;
-$warning:   #f9ad28;
-$danger:    #eb466d;
-$orange:    #d88d0d;
-$purple:    #9261c6;
-$pink:      #f12699;
-$white:     #ffffff;
-$dark:      #022334;
-$light:     #f8fbff;
-$muted:     #787a7d;
+// $primary:   #4252f9;
+$primary: #313950;
+$secondary: #f65b65;
+$success: #15c7ae;
+$info: #10a6ba;
+$warning: #f9ad28;
+$danger: #eb466d;
+$orange: #d88d0d;
+$purple: #9261c6;
+$pink: #f12699;
+$white: #ffffff;
+$dark: #022334;
+$light: #f8fbff;
+$muted: #787a7d;
 
 // stylelint-disable
 $gray-100: #f8f9fa;
@@ -31,6 +32,7 @@ $gray-900: #1d262d;
 
 $colors: (
     "primary": $primary,
+    "secondary": $secondary,
     "success": $success,
     "info": $info,
     "warning": $warning,
@@ -41,23 +43,16 @@ $colors: (
     "purple": $purple,
     "pink": $pink,
     "white": $white,
-    "light": $light
+    "light": $light,
 );
 
-
 // Body Background
-$body-bg:                   #f5f5f5;
-$bg-gradient:               linear-gradient(to bottom, $success, $primary);
-$box-shadow:                0px 3px 6px 1px rgba(38, 107, 193, 0.08);
-
-
-
+$body-bg: #f5f5f5;
+$bg-gradient: linear-gradient(to bottom, $success, $primary);
+$box-shadow: 0px 3px 6px 1px rgba(38, 107, 193, 0.08);
 
 // Base font
-$font-size-base:            14px;
+$font-size-base: 14px;
 
-$font-family-base:          'Poppins', sans-serif;
-$font-family-secondary:     'Poppins', sans-serif;
-
-
-
+$font-family-base: "Poppins", sans-serif;
+$font-family-secondary: "Poppins", sans-serif;
